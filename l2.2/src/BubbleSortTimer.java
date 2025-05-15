@@ -27,7 +27,7 @@ public class BubbleSortTimer {
         Random random = new Random();
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
-            array[i] = random.nextInt(1000); // Генерация чисел от 0 до 99999
+            array[i] = random.nextInt(100000);
         }
         return array;
     }
