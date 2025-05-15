@@ -1,0 +1,2 @@
+Привет! Hello! Это тестовый текст. This is a test text.
+12345!@#$% Дополнительные символы: additional symbols.
