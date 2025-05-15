@@ -20,20 +20,21 @@ public class MyTime {
         this.second = second;
     }
 
-    // Getter для поля hour
-    public int getHour() {
-        return hour;
-    }
-
-    // Getter для поля minute
-    public int getMinute() {
-        return minute;
-    }
-
-    // Getter для поля second
-    public int getSecond() {
-        return second;
-    }
+// Геттеры позволят гибко настраивать методы инкапсуляции
+//    // Getter для поля hour
+//    public int getHour() {
+//        return hour;
+//    }
+//
+//    // Getter для поля minute
+//    public int getMinute() {
+//        return minute;
+//    }
+//
+//    // Getter для поля second
+//    public int getSecond() {
+//        return second;
+//    }
 
     // Метод для установки времени на основе прошедшего времени в миллисекундах
     public void setTime(long elapsedTime) {
