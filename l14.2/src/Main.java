@@ -9,8 +9,13 @@ public class Main {
         stringList.add("fig");
 
         System.out.println("Итерация по строкам:");
+        int iterations = 0;
         for (String item : stringList) {
             System.out.println(item);
+            iterations++;
+            if (iterations >= 10) { // Ограничиваем количество итераций, оно необходимо потому что итератор уходит в кольцевой цикл
+                break;
+            }
         }
 
         // Тестирование на объектах Person
@@ -21,8 +26,13 @@ public class Main {
         personList.add(new Person("David", 20));
 
         System.out.println("\nИтерация по объектам Person:");
+        int iterations2 = 0;
         for (Person person : personList) {
             System.out.println(person);
+            iterations2++;
+            if (iterations2 >= 10) { // Ограничиваем количество итераций, оно необходимо потому что итератор уходит в кольцевой цикл
+                break;
+            }
         }
     }
 }
