@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         // Создание объекта MyString2
@@ -8,7 +10,7 @@ public class Main {
         // Тестирование методов
         System.out.println("str1: " + str1); // Hello
         System.out.println("str1.equals(str2): " + str1.equals(str2)); // true
-        System.out.println("str1.compareTo(str3): " + str1.compareTo(str3)); // Отрицательное число (Hello < World)
+        System.out.println("str1.compareTo(str3): " + str1.compareTo(str3)); // Hello < World
 
         // Подстроки
         MyString2 subStr = str1.substring(1, 4);

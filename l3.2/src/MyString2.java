@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MyString2 {
     private char[] chars;
 
