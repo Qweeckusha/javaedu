@@ -61,16 +61,19 @@ public class Sentence implements Iterable<String> {
         Sentence sentence = new Sentence();
 
         // Использование итератора через цикл for-each
-        System.out.println("Слова в предложении:");
+        System.out.println("---------- Слова в предложении ----------");
         for (String word : sentence) {
             System.out.println(word);
         }
+        System.out.println("------------------------------------------\n");
 
         // Использование явного итератора
-        System.out.println("\nИспользование явного итератора:");
+        System.out.println("\n---------- Использование явного итератора ----------");
         Iterator<String> iterator = sentence.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+        System.out.println("------------------------------------------");
+
     }
 }
